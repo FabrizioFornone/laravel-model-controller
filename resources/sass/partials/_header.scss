@@ -1,0 +1,25 @@
+header {
+    img {
+        width: 100px;
+    }
+
+    nav {
+        ul {
+            margin-bottom: 0;
+            padding-left: 0;
+
+            li {
+                a {
+                    padding: 0 20px;
+                    text-decoration: none;
+                    color: #002d75;
+                    font-weight: bolder;
+
+                    &:hover {
+                        color: #4777c5;
+                    }
+                }
+            }
+        }
+    }
+}

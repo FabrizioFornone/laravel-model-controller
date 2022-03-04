@@ -17,7 +17,7 @@ class PageController extends Controller
         if (empty($movies)) {
             abort("404");
         }
-        dump($movies);
+        // dump($movies);
 
         return view('home', compact('movies'));
     }
