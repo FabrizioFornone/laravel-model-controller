@@ -29,6 +29,29 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #bbbbbb;
+  color: #20b9d6;
+}
+
+.movie-card {
+  background-color: #032541;
+  color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+}
+
+.movie-card:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background-color: #0b4779;
+}
+
+.movie-card .loop-index {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
