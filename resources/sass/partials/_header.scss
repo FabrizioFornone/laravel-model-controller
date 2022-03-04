@@ -1,4 +1,5 @@
 header {
+    background-color: #032541;
     img {
         width: 100px;
     }
@@ -12,11 +13,11 @@ header {
                 a {
                     padding: 0 20px;
                     text-decoration: none;
-                    color: #002d75;
+                    color: #f0f0f0;
                     font-weight: bolder;
 
                     &:hover {
-                        color: #4777c5;
+                        color: #bbbbbb;
                     }
                 }
             }
